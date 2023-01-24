@@ -12,6 +12,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/eslint-config": "*",
     "@babel/core": "^7.20.12",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
