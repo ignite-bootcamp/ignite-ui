@@ -5,12 +5,12 @@ export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (  
+    children: (
       <>
-      <span>Testando o elemento Box</span>
+        <span>Testando o elemento Box</span>
       </>
-    )
-  }
+    ),
+  },
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
