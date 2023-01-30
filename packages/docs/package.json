@@ -12,11 +12,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/ts-config": "*",
-    "@babel/core": "^7.20.12",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
@@ -29,6 +29,7 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
