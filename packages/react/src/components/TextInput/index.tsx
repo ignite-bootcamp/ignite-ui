@@ -9,7 +9,7 @@ export function TextInput({ prefix, ...props }: TextInputProps) {
   return (
     <TextInputContainer>
       {!!prefix && <Prefix>{prefix}</Prefix>}
-      <input type="text" {...props} />
+      <Input type="text" {...props} />
     </TextInputContainer>
   )
 }
